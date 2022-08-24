@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="weather">
+      <div class="input-wraper">
+        <input type="text" class="input" placeholder="Nhập tên thành phố" />
+      </div>
+      <div class="infor">
+        <div class="location">
+          <span class="city">--</span>
+          <span class="country">--</span>
+        </div>
+      </div>
+      <div class="temperature">--</div>
+      <p class="description">--</p>
+      <div class="detail">
+        <div class="item-detail">
+          <i class="fa-solid fa-eye"></i>
+          <span class="visibility">--m</span>
+        </div>
+        <div class="item-detail">
+          <i class="fa-solid fa-wind"></i>
+          <span class="wind-speed">--m</span>
+        </div>
+        <div class="item-detail">
+          <i class="fa-solid fa-cloud-sun"></i>
+          <span class="cloud">--m</span>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
